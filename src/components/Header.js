@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import { Link } from "react-router-dom";
-import RESUME from "./RESUME.pdf";
+import KARTIKEYA_PANDEY_UPDATED_RESUME from "./KARTIKEYA_PANDEY_UPDATED_RESUME.pdf";
 import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {
@@ -72,8 +72,8 @@ export default function Header() {
             </Link>
             <Typography variant="h5" component="div">
               <a
-                href={RESUME}
-                download={RESUME}
+                href={KARTIKEYA_PANDEY_UPDATED_RESUME}
+                download={KARTIKEYA_PANDEY_UPDATED_RESUME}
                 style={{ color: "crimson", textDecoration: "none" }}
               >
                 Resume <DownloadIcon />
@@ -111,8 +111,8 @@ export default function Header() {
           </Link>
           <Typography variant="h6" component="div">
             <a
-              href={RESUME}
-              download={RESUME}
+              href={KARTIKEYA_PANDEY_UPDATED_RESUME}
+              download={KARTIKEYA_PANDEY_UPDATED_RESUME}
               style={{ color: "crimson", textDecoration: "none" }}
             >
               Resume <DownloadIcon />
