@@ -87,7 +87,7 @@ export default function Experiences() {
                 </Typography>
               ) : null}
             </Box>
-            <Box display="flex" justifyContent="space-between" mt={2}>
+            <Box display="flex" justifyContent="space-between" flexWrap="wrap" mt={2}>
               {ex.tech.map((tech, idx) => {
                 return (
                   <Box key={idx}>

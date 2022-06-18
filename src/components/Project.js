@@ -46,7 +46,7 @@ export default function Project() {
           <Typography variant="h6" component="div" mt={4} sx={{borderBottom: 2, borderColor: "black"}}>
             Tech Used
           </Typography>
-          <Box display="flex" justifyContent="space-between" mt={2}>
+          <Box display="flex" justifyContent="space-between" flexWrap="wrap" mt={2}>
           {
           project.tech.map((tech, idx) => {return (
               <Box key={idx}>
