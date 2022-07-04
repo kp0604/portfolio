@@ -22,7 +22,7 @@ export default function Projects() {
       >
         Personal Projects
       </Typography>
-      <Box display="flex" justifyContent="space-around" flexWrap="wrap">
+      <Box display="flex" justifyContent="space-between" flexWrap="wrap">
         {projects.map((project, idx) => {
           return (
             <Card key={idx} sx={{ my: 4 }}>
