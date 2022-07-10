@@ -7,8 +7,11 @@ import {
   SwipeableDrawer,
 } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
+import HomeIcon from "@mui/icons-material/Home";
+import WebIcon from '@mui/icons-material/Web';
+import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import { Link } from "react-router-dom";
-import KARTIKEYA_PANDEY_UPDATED_RESUME from "./KARTIKEYA_PANDEY_UPDATED_RESUME.pdf";
+import Kartikeya_Pandey_UPDATED_RESUME from "./Kartikeya_Pandey_UPDATED_RESUME.pdf";
 import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {
@@ -16,8 +19,8 @@ export default function Header() {
 
   return (
     <AppBar
-      position="relative"
-      sx={{ bgcolor: "white", mb: 4, borderRadius: 1 }}
+      position="sticky"
+      sx={{ bgcolor: "white", mb: 2, borderRadius: 1 }}
     >
       <Toolbar variant="regular">
         <Typography
@@ -44,7 +47,7 @@ export default function Header() {
                 component="div"
                 sx={{ color: "crimson" }}
               >
-                Home
+                Home 
               </Typography>
             </Link>
             {/* <Link to="/about"  style={{textDecoration:'none'}} >
@@ -72,8 +75,8 @@ export default function Header() {
             </Link>
             <Typography variant="h5" component="div">
               <a
-                href={KARTIKEYA_PANDEY_UPDATED_RESUME}
-                download={KARTIKEYA_PANDEY_UPDATED_RESUME}
+                href={Kartikeya_Pandey_UPDATED_RESUME}
+                download={Kartikeya_Pandey_UPDATED_RESUME}
                 style={{ color: "crimson", textDecoration: "none" }}
               >
                 Resume <DownloadIcon />
@@ -90,8 +93,8 @@ export default function Header() {
           }}
         >
           <Link to="/" style={{ textDecoration: "none" }}>
-            <Typography variant="h6" component="div" sx={{ color: "crimson" }}>
-              Home
+            <Typography variant="h6" component="div" sx={{ color: "black" }}>
+              Home <HomeIcon sx={{ color: "crimson" }}/>
             </Typography>
           </Link>
           {/* <Link to="/about"  style={{textDecoration:'none'}} >
@@ -100,22 +103,22 @@ export default function Header() {
               </Typography>
               </Link> */}
           <Link to="/projects" style={{ textDecoration: "none" }}>
-            <Typography variant="h6" component="div" sx={{ color: "crimson" }}>
-              Projects
+            <Typography variant="h6" component="div" sx={{ color: "black" }}>
+              Projects <WebIcon sx={{ color: "crimson" }}/>
             </Typography>
           </Link>
           <Link to="/experiences" style={{ textDecoration: "none" }}>
-            <Typography variant="h6" component="div" sx={{ color: "crimson" }}>
-              Experience
+            <Typography variant="h6" component="div" sx={{ color: "black" }}>
+              Experience <WorkHistoryIcon sx={{ color: "crimson" }}/>
             </Typography>
           </Link>
           <Typography variant="h6" component="div">
             <a
-              href={KARTIKEYA_PANDEY_UPDATED_RESUME}
-              download={KARTIKEYA_PANDEY_UPDATED_RESUME}
-              style={{ color: "crimson", textDecoration: "none" }}
+              href={Kartikeya_Pandey_UPDATED_RESUME}
+              download={Kartikeya_Pandey_UPDATED_RESUME}
+              style={{ color: "black", textDecoration: "none" }}
             >
-              Resume <DownloadIcon />
+              Resume <DownloadIcon sx={{ color: "crimson" }}/>
             </a>
           </Typography>
         </Box>

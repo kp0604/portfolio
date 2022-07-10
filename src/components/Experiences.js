@@ -63,7 +63,7 @@ export default function Experiences() {
                 fontSize: 15,
                 mx: "auto",
                 fontWeight: 500,
-                color: "crimson",
+                color: "black",
               }}
               label={`${ex.start} - ${ex.end}`}
               {...a11yProps(idx)}

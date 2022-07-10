@@ -11,7 +11,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <BrowserRouter>
-    <Box  p={{xs:2,md:4}}>
+    <Box  px={{xs:2,md:4}} py={{xs:2,md:4}}>
     <Header/>
     <Paper elevation={8} sx={{ borderRadius: 1,py:2,minHeight:'70vh'}} >
     <Routes>

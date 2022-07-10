@@ -25,7 +25,7 @@ export default function Projects() {
       <Box display="flex" justifyContent="space-between" flexWrap="wrap">
         {projects.map((project, idx) => {
           return (
-            <Card key={idx} sx={{ my: 4 }}>
+            <Card key={idx} sx={{ my: 4 }} elevation={4}>
               <CardMedia
                 component="img"
                 height="160"

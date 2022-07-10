@@ -5,6 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { skills } from "../helpers/skills";
 import mav from "../imgs/mav.png";
+import kp1 from "../imgs/kp1.jpg";
 
 export default function Home() {
   return (
@@ -12,13 +13,21 @@ export default function Home() {
         <Box
           display="flex"
           sx={{ flexWrap: "wrap", justifyContent: { md: "space-around" } }}
+          flexDirection={{xs:"column",md:"row"}}
         >
           <Avatar
-            src={mav}
+            src={kp1}
+            elevation={4}
             variant="rounded"
             sx={{ height: "220px", width: "220px" }}
           />
-          <Box>
+          {/* <Avatar
+            src={mav}
+            variant="circular"
+            sx={{ height: "250px", width: "250px" }}
+          /> */}
+          {/* <Box> */}
+          <Box my="auto">
             <Typography variant="h5" component="div">
               Hello, I'm
             </Typography>
@@ -28,7 +37,8 @@ export default function Home() {
             <Typography variant="h4" component="div" mt={2} sx={{}}>
               Frontend Developer
             </Typography>
-            <Box sx={{ display: "flex", flexWrap: "wrap" }} mt={4}>
+          </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap",flexDirection:{xs:"row",md:"column"},justifyContent:{md:"space-around"} }} mt={4}>
               <Link
                 href="https://github.com/kp0604"
                 sx={{ color: "black", mr: 4 }}
@@ -48,7 +58,7 @@ export default function Home() {
                 <TwitterIcon fontSize="large" />
               </Link>
             </Box>
-          </Box>
+          {/* </Box> */}
         </Box>
         <Box mt={6}>
           <Typography
