@@ -15,17 +15,16 @@ export default function Home() {
           sx={{ flexWrap: "wrap", justifyContent: { md: "space-around" } }}
           flexDirection={{xs:"column",md:"row"}}
         >
-          <Avatar
+          {/* <Avatar
             src={kp1}
-            elevation={4}
             variant="rounded"
             sx={{ height: "220px", width: "220px" }}
-          />
-          {/* <Avatar
+          /> */}
+          <Avatar
             src={mav}
             variant="circular"
             sx={{ height: "250px", width: "250px" }}
-          /> */}
+          />
           {/* <Box> */}
           <Box my="auto">
             <Typography variant="h5" component="div">
