@@ -8,8 +8,8 @@ import {
 } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import HomeIcon from "@mui/icons-material/Home";
-import WebIcon from '@mui/icons-material/Web';
-import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
+import WebIcon from "@mui/icons-material/Web";
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import { Link } from "react-router-dom";
 import KARTIKEYA_PANDEY_UPDATED_RESUME from "./KARTIKEYA_PANDEY_UPDATED_RESUME.pdf";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -18,10 +18,7 @@ export default function Header() {
   const [sel, setSel] = useState(false);
 
   return (
-    <AppBar
-      position="sticky"
-      sx={{ bgcolor: "white", mb: 2, borderRadius: 1 }}
-    >
+    <AppBar position="sticky" sx={{ bgcolor: "white", mb: 2, borderRadius: 1 }}>
       <Toolbar variant="regular">
         <Typography
           color="textPrimary"
@@ -42,12 +39,8 @@ export default function Header() {
             }}
           >
             <Link to="/" style={{ textDecoration: "none" }}>
-              <Typography
-                variant="h5"
-                component="div"
-                sx={{ color: "crimson" }}
-              >
-                Home 
+              <Typography variant="h6" component="div" sx={{ color: "black" }}>
+                <HomeIcon sx={{ color: "crimson" }} /> Home{" "}
               </Typography>
             </Link>
             {/* <Link to="/about"  style={{textDecoration:'none'}} >
@@ -56,30 +49,22 @@ export default function Header() {
               </Typography>
               </Link> */}
             <Link to="/projects" style={{ textDecoration: "none" }}>
-              <Typography
-                variant="h5"
-                component="div"
-                sx={{ color: "crimson" }}
-              >
-                Projects
+              <Typography variant="h6" component="div" sx={{ color: "black" }}>
+                <WebIcon sx={{ color: "crimson" }} /> Projects
               </Typography>
             </Link>
             <Link to="/experiences" style={{ textDecoration: "none" }}>
-              <Typography
-                variant="h5"
-                component="div"
-                sx={{ color: "crimson" }}
-              >
-                Experience
+              <Typography variant="h6" component="div" sx={{ color: "black" }}>
+                <WorkHistoryIcon sx={{ color: "crimson" }} /> Experience
               </Typography>
             </Link>
-            <Typography variant="h5" component="div">
+            <Typography variant="h6" component="div">
               <a
                 href={KARTIKEYA_PANDEY_UPDATED_RESUME}
                 download={KARTIKEYA_PANDEY_UPDATED_RESUME}
-                style={{ color: "crimson", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
-                Resume <DownloadIcon />
+                <DownloadIcon sx={{ color: "crimson" }} /> Resume
               </a>
             </Typography>
           </Box>
@@ -94,7 +79,7 @@ export default function Header() {
         >
           <Link to="/" style={{ textDecoration: "none" }}>
             <Typography variant="h6" component="div" sx={{ color: "black" }}>
-              Home <HomeIcon sx={{ color: "crimson" }}/>
+              Home <HomeIcon sx={{ color: "crimson" }} />
             </Typography>
           </Link>
           {/* <Link to="/about"  style={{textDecoration:'none'}} >
@@ -104,12 +89,12 @@ export default function Header() {
               </Link> */}
           <Link to="/projects" style={{ textDecoration: "none" }}>
             <Typography variant="h6" component="div" sx={{ color: "black" }}>
-              Projects <WebIcon sx={{ color: "crimson" }}/>
+              Projects <WebIcon sx={{ color: "crimson" }} />
             </Typography>
           </Link>
           <Link to="/experiences" style={{ textDecoration: "none" }}>
             <Typography variant="h6" component="div" sx={{ color: "black" }}>
-              Experience <WorkHistoryIcon sx={{ color: "crimson" }}/>
+              Experience <WorkHistoryIcon sx={{ color: "crimson" }} />
             </Typography>
           </Link>
           <Typography variant="h6" component="div">
@@ -118,7 +103,7 @@ export default function Header() {
               download={KARTIKEYA_PANDEY_UPDATED_RESUME}
               style={{ color: "black", textDecoration: "none" }}
             >
-              Resume <DownloadIcon sx={{ color: "crimson" }}/>
+              Resume <DownloadIcon sx={{ color: "crimson" }} />
             </a>
           </Typography>
         </Box>

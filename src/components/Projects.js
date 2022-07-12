@@ -22,16 +22,16 @@ export default function Projects() {
       >
         Personal Projects
       </Typography>
-      <Box display="flex" justifyContent="space-between" flexWrap="wrap">
+      <Box display="flex" justifyContent={"space-evenly"} flexWrap="wrap">
         {projects.map((project, idx) => {
           return (
-            <Card key={idx} sx={{ my: 4 }} elevation={4}>
+            <Card key={idx} sx={{ my: 3 }} elevation={4}>
               <CardMedia
                 component="img"
                 height="160"
                 image={project.image}
                 alt="img"
-                sx={{ borderBottom: "1px solid black" }}
+                sx={{ borderBottom: "1px solid black", maxWidth: "330px" }}
               />
               <Box display="flex" justifyContent="space-around" my={1}>
                 {project.tech.map((tech, idx) => {
