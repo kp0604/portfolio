@@ -63,7 +63,7 @@ export default function Home() {
 				</Box>
 				{/* </Box> */}
 			</Box>
-			<Box mt={6}>
+			<Box mt={12}>
 				<Typography
 					variant="h6"
 					component="div"

@@ -11,9 +11,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <BrowserRouter>
-    <Box  px={{xs:2,md:4}} py={{xs:2,md:4}}>
+    <Box  px={{xs:2,md:2}} py={{xs:2,md:2}}>
     <Header/>
-    <Paper elevation={8} sx={{ borderRadius: 1,py:2,minHeight:'70vh'}} >
+    <Paper elevation={8} sx={{ borderRadius: 1,py:2,minHeight:'78vh'}} >
     <Routes>
     <Route path='/' element={<Home/>}/>
     {/* <Route path='/about' element={<About/>}/> */}
