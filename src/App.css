@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: lightskyblue
+  background-color: darkcyan
 }
 
 body::-webkit-scrollbar { width: 0 !important }
