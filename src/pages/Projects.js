@@ -8,7 +8,7 @@ import {
   Container,
   Avatar,
 } from "@mui/material";
-import { projects } from "../helpers/projects";
+import { projects } from "../data/projects";
 import { Link } from "react-router-dom";
 
 export default function Projects() {

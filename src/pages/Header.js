@@ -11,7 +11,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import WebIcon from "@mui/icons-material/Web";
 import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import { Link } from "react-router-dom";
-import KARTIKEYA_PANDEY_UPDATED_RESUME from "./KARTIKEYA_PANDEY_UPDATED_RESUME.pdf";
+import KARTIKEYA_PANDEY_UPDATED_RESUME from "../assests/resume/Kartikeya-Pandey-RESUME.pdf";
 import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {

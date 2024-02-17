@@ -1,10 +1,10 @@
 import './App.css';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Project from './components/Project';
-import Experiences from './components/Experiences';
-import Header from './components/Header';
-import About from './components/About';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Project from './pages/Project';
+import Experiences from './pages/Experiences';
+import Header from './pages/Header';
+import About from './pages/About';
 import {Box,Paper} from '@mui/material';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
