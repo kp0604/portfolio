@@ -12,16 +12,22 @@ import ts from "../assets/images/ts.png";
 
 export const experiences = [
 	{
-		title: "frontend developer",
-		description: `Worked on projects assigned by Banao Technologies, projects included Ecommerce websites, College helper websites, Assessment platform and others mostly in React also on Angular, understood client requirements and feedbacks and provided accordingly.
-    Projects required tasks like Responsive web designs from scratch and also with frameworks like bootstrap and tailwind css, did Api integrations for api such as login,signup, CRUD apis, cart flow, blogs, and others, used Redux and context Api for state management and improving performance.
-    Implemented features such as Payment Gateway integration, Google Maps api integration for location which further filtered a list of salons in an area for a project, Google analytics for a project having metrics like bounce rate, page views, active users etc.
-    Drived the Design and Development of company’s  product website(Across the Globe) add on - Assessment Platform, mentored and worked with interns on this.It was made in React, Redux Toolkit, Bootstrap 5, Which also acted as a standalone platform for assessing the interns in the Internal Team.
-    Provided Code reviews, mentored interns and collaborated with colleagues, have taken interviews for React and MERN internships.
-    Backend : Worked on backend of Assessment platform made in Nodejs, Express, MongoDB.
-    Made CRUD APIs questionbanks, questions, collections, attempts, evaluate.
-    Used AWS S3 bucket for uploading files and images, also created internal service for handling this functionality.
-    Made Api for Auto generation of emails for notification or information regarding assessment and its link.`,
+		title: "Software Developer",
+		description: `•Played a pivotal role in the development of a salon-focused e-commerce platform, focusing on Redux Toolkit
+		for frontend state management and ensuring backend architecture robustness and scalability.
+		•Led the design and development of crucial features within a multitenant architecture application,
+		emphasizing user management, revenue model implementation, and test-taking functionalities across
+		frontend and backend system.
+		•Contributed to the redevelopment of the Banao Tech Website by introducing new component designs,
+		optimizing SEO strategies, and integrating a headless CMS Strapi for blog management within the Next.js
+		framework.
+		•Designed and architected an internal Assessment Platform (Learning Management System) from scratch for
+		intern training purposes.
+		•Implemented Serverless architecture with DynamoDB for cost-efficient and scalable operations in Nodejs
+		project, reducing overhead and enabling seamless auto-scaling.
+		•Facilitated project development by fostering collaboration with cross-functional teams, while concurrently
+		providing mentorship to interns and conducting recruitment interviews. This comprehensive involvement
+		ensured both project success and talent cultivation within the organization.`,
 		company: "[Banao Technologies, Across the Globe]",
 		start: "Aug 2022",
 		end: "Present",

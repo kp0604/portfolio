@@ -33,7 +33,7 @@ export default function Home() {
 						Kartikeya Pandey
 					</Typography>
 					<Typography variant="h4" component="div" mt={2} sx={{}}>
-						Frontend Developer
+						Software Engineer
 					</Typography>
 				</Box>
 				<Box
